@@ -2311,7 +2311,8 @@ button {
 
 .epson .mobile-price .del {
   font-size: 13px;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
+  display: inline-block;
 }
 
 .epson .mobile-price .btn-red.hvr-fade,
@@ -13161,7 +13162,6 @@ tr > .epson .tab-content table:first-child {
   font-size: 13px;
   color: #000000;
   font-weight: 600;
-  margin-bottom: 16px;
 }
 .epson .bi-shiptxt {
   font-weight: 700 !important;
