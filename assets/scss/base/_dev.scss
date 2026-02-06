@@ -10,4 +10,35 @@
   .ab-contact {
     margin-bottom: 24px;
   }
+  .ep-checkout__radio {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 0;
+    gap: 20px;
+    margin-left: 24px;
+
+    span {
+      font-size: 18px;
+    }
+    td {
+      margin-right: 16px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    td input {
+      margin-right: 8px;
+      height: auto;
+      accent-color: var(--primary-btn);
+
+      &:hover {
+        accent-color: var(--primary-btn);
+      }
+    }
+
+    td label {
+      margin-bottom: 4px;
+    }
+  }
 }
